@@ -7,12 +7,13 @@ export default class Blanh extends Component {
     render() {
         return (
             <div className='grid grid-cols-5  '>
-                <div className='"col-span-1'>
+                <div className='col-span-1'>
                 <DanhLeft/>
                 </div>
                 
-                <div className='"col-span-4'>
+                <div className='col-span-4'>
                     <Header/>
+                    
                 </div>
             </div>
         )

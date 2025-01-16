@@ -15,7 +15,7 @@ export default class DanhLeft extends Component {
   render() {
     return (
           <div>
-            <div className="w-64 text-white flex flex-col h-screen">
+            <div className=" text-white flex flex-col h-screen">
                 <div className="w-full flex justify-center items-center bg-[#293146] py-4">
                     <img
                         src="https://edulearn-lms-admin-template.multipurposethemes.com/images/logo-letter.png"
