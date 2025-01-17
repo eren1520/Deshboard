@@ -10,6 +10,7 @@ import Blanh from './Blanh/Blanh';
 import FromElemoenPage from './Page/FromElemoenPage';
 import TablePage from './Page/TablePage';
 import GroupchatsPage from './Page/GroupchatsPage';
+import CalenderPage from './Page/CalenderPage';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
           <Route path="/FromElemoen" element={<FromElemoenPage />} />
           <Route path="/Table" element={<TablePage />} />
           <Route path="/Groupchat" element={<GroupchatsPage />} />
+          <Route path="/Calender" element={<CalenderPage />} />
+          <Route path="/blanh" element={<Blanh />} />
           
         </Routes>
       </Router>

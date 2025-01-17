@@ -6,6 +6,7 @@ import Mail from '../QuanKu/components/Mail'
 import Mailbox from '../QuanKu/Mailbox'
 import FromElemoen from '../Toan/FromElemoen'
 import Groupchats from '../DucKu/pages/Groupchats'
+import Calendar from '../VuLong/Calendar'
 
 
 export default class Blanh extends Component {
@@ -18,7 +19,7 @@ export default class Blanh extends Component {
                 
                 <div className='col-span-4  '>
                     <Header/>
-                    <Groupchats/>
+                    <Calendar/>
                 </div>
             </div>
         )
