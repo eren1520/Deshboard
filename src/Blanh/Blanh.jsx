@@ -4,6 +4,8 @@ import Header from '../Header/Header'
 import UserCard from '../Dung/UserCard'
 import Mail from '../QuanKu/components/Mail'
 import Mailbox from '../QuanKu/Mailbox'
+import FromElemoen from '../Toan/FromElemoen'
+import Groupchats from '../DucKu/pages/Groupchats'
 
 
 export default class Blanh extends Component {
@@ -14,9 +16,9 @@ export default class Blanh extends Component {
                 <DanhLeft/>
                 </div>
                 
-                <div className='col-span-4'>
+                <div className='col-span-4  '>
                     <Header/>
-                    <Mailbox className='w-'/>
+                    <Groupchats/>
                 </div>
             </div>
         )

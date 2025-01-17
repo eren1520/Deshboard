@@ -9,6 +9,7 @@ import MailboxPage from './Page/MailboxPage';
 import Blanh from './Blanh/Blanh';
 import FromElemoenPage from './Page/FromElemoenPage';
 import TablePage from './Page/TablePage';
+import GroupchatsPage from './Page/GroupchatsPage';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
           <Route path="/mailbox" element={<MailboxPage />} />
           <Route path="/FromElemoen" element={<FromElemoenPage />} />
           <Route path="/Table" element={<TablePage />} />
+          <Route path="/Groupchat" element={<GroupchatsPage />} />
+          
         </Routes>
       </Router>
       {/* <Blanh/> */}
