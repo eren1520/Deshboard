@@ -10,7 +10,7 @@ export default class Header extends Component {
   render() {
     return (
 
-      <header className='bg-[#191d33] flex justify-between  items-center h-16 px-6'>
+      <header className='bg-[#191d33] flex justify-between  items-center h-16 px-6 sticky top-0 z-50'>
         <div className="flex items-center ">
           <button className="text-white hover:bg-[#0196e7] hover:text-white p-2 rounded-md text-blue-400 transition duration-300 text-2xl  mr-2">
             <IoMdMenu className='' />

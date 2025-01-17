@@ -1,7 +1,7 @@
 import React from 'react'
 import er404 from './assets/404.png'
 import { SlMagnifier } from "react-icons/sl";
-const e404 = () => {
+const BonTram = () => {
     return (
         <div className='bg-[#171e32] w-screen h-screen relative flex flex-col items-center justify-center'>
             <div className='text-slate-200 text-8xl mb-3'>404</div>
@@ -19,4 +19,4 @@ const e404 = () => {
     )
 }
 
-export default e404
+export default BonTram

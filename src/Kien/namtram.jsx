@@ -1,7 +1,7 @@
 import React from 'react'
 import er500 from './assets/505.png'
 
-const e500 = () => {
+const namtram = () => {
     return (
         <div className='bg-[#171e32] w-screen h-screen relative flex flex-col items-center justify-center'>
             <div className='text-slate-200 text-8xl mb-3'>500</div>
@@ -16,4 +16,4 @@ const e500 = () => {
     )
 }
 
-export default e500
+export default namtram
