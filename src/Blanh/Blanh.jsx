@@ -9,6 +9,7 @@ import Groupchats from '../DucKu/pages/Groupchats'
 import Calendar from '../VuLong/Calendar'
 
 
+
 export default class Blanh extends Component {
     render() {
         return (
@@ -19,7 +20,7 @@ export default class Blanh extends Component {
                 
                 <div className='col-span-4  '>
                     <Header/>
-                    <Calendar/>
+                    
                 </div>
             </div>
         )
