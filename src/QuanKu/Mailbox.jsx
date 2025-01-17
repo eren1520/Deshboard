@@ -14,18 +14,18 @@ const Mailbox = () => {
             id: 1,
             sender: "Steven Smith",
             email: "jonathan@domain.com",
-            subject: "Your elite author Graphic Optimization reward is ready!",
+            subject: "Your elite reward is ready!",
             time: "Dec 14, 2021, 5:17 AM",
             avatar: "https://via.placeholder.com/50",
-            body: `Hi! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. `,
-            list: [
-                "Pellentesque vitae tortor tempus.",
-                "Nunc ultrices lacus mollis arcu lobortis.",
-                "Donec et eros placerat lacus varius elementum.",
-                "Sed semper tellus nec ligula varius, vitae consequat mi scelerisque.",
-                "Proin ac mauris sodales, pulvinar eros eget, viverra lacus.",
-            ],
-            closing: `FDonec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.`,
+            body: `Hi! Lorem ipsum dolor sit amet.. `,
+            // list: [
+            //     "Pellentesque vitae tortor tempus.",
+            //     "Nunc ultrices lacus mollis arcu lobortis.",
+            //     "Donec et eros placerat lacus varius elementum.",
+            //     "Sed semper tellus nec ligula varius, vitae consequat mi scelerisque.",
+            //     "Proin ac mauris sodales, pulvinar eros eget, viverra lacus.",
+            // ],
+            closing: `FDonec quam felis, ultricies nec, pellentesque eu, pretium quis.`,
             signature: "Thanks, Jane",
             starred: true,
         },
@@ -62,10 +62,10 @@ const Mailbox = () => {
     console.log("Messages:", messages);
 
     return (
-        <div className='flex justify-center  p-6 bg-[#191D33]  '>
-            <Inbox onInboxClick={handleInboxClick} onStarredClick={handleStarredClick} />
+        <div className='flex justify-center p-6 bg-[#191D33]  grid grid-cols-5'>
+            <Inbox onInboxClick={handleInboxClick} onStarredClick={handleStarredClick} className='col-span-2' />
 
-            <div className='flex flex-col px-2 bg-[#191D33] ml-4'>
+            <div className='flex flex-col px-2 bg-[#191D33] ml-4 col-span-4'>
                 {selectedMail ? (
                     <Mail selectedMail={selectedMail} onBack={handleBack} /> // Show Mail component if selected
                 ) : (

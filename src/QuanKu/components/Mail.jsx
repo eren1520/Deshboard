@@ -37,7 +37,7 @@ const Mail = ({ selectedMail, onBack }) => {
         {/* Mail Content */}
         <div className="text-gray-200 text-sm leading-relaxed">
           <p className="inline whitespace-nowrap">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque  penatibus et magnis dis<br/> parturient montes, nascetur ridiculus mus          </p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.....          </p>
           <ul className="list-decimal pl-5 mt-4">
             <li>Pellentesque vitae tortor tempus.</li>
             <li>Nunc ultrices lacus mollis arcu.</li>

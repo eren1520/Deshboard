@@ -6,7 +6,7 @@ import { RiSpamFill } from "react-icons/ri";
 const Inbox = ({ onInboxClick, onStarredClick }) => {
     return (
         <div className="flex flex-col bg-[#293146] text-[#B4B7BC]  p-4">
-            <button className="bg-[#DA224F] text-white px-20 py-2 rounded">Compose</button>
+            <button className="bg-[#DA224F] text-white text-center py-2 rounded">Compose</button>
             <ul className="flex flex-col space-y-2 py-4">
                 <li className="flex justify-between">
                     <div className="flex items-center">
