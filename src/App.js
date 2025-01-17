@@ -1,10 +1,10 @@
-import Blanh from './Blanh/Blanh'
 import './App.css';
+import UserCard from './Dung/UserCard';
 
 function App() {
   return (
     <div>
-      <Blanh/>
+ <UserCard></UserCard>
     </div>
   );
 }
