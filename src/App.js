@@ -1,10 +1,17 @@
 import './App.css';
-import UserCard from './Dung/UserCard';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import UserCardPage from './Page/UserCardPage';
+
 
 function App() {
   return (
     <div>
- <UserCard></UserCard>
+       <Router>
+      <Routes>
+      <Route path="/Card" element={<UserCardPage />} />
+      </Routes>
+    </Router>
+     
     </div>
   );
 }

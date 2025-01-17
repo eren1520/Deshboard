@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import DanhLeft from '../DashLeft/DanhLeft'
 import Header from '../Header/Header'
+import UserCard from '../Dung/UserCard'
 
 
 export default class Blanh extends Component {
@@ -13,7 +14,7 @@ export default class Blanh extends Component {
                 
                 <div className='col-span-4'>
                     <Header/>
-                    
+                    <UserCard/>
                 </div>
             </div>
         )
